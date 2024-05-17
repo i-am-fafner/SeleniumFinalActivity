@@ -82,7 +82,7 @@ public class SampleInputFormSubmitObject extends AbstractComponent {
         Assert.assertEquals(firstNameInput.getAttribute("value"),firstName,"Mismatch in comparison");
         System.out.println("Validation Passed!" + firstNameInput.getAttribute("value"));
     }catch (AssertionError e){
-        System.out.println("Assertion Failed" + e.getMessage());
+        System.out.println("Assertion Test Failed" + e.getMessage());
         throw e;
     }
   }
