@@ -83,6 +83,7 @@ public class SampleInputFormSubmitObject extends AbstractComponent {
         System.out.println("Validation Passed!" + firstNameInput.getAttribute("value"));
     }catch (AssertionError e){
         System.out.println("Assertion Test Failed" + e.getMessage());
+        System.out.println("Test Branch" + e.getMessage());
         throw e;
     }
   }
